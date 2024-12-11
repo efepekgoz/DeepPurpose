@@ -75,7 +75,7 @@ def repurpose(target, target_name = None,
 			if not os.path.exists(result_folder_path):
 				os.mkdir(result_folder_path)
 
-			y_pred = models.repurpose(X_repurpose, target, model, drug_names, target_name, convert_y = convert_y, result_folder = result_folder_path, verbose = False)
+			y_pred = models.repurpose(X_repurpose, target, model, drug_names, target_name, convert_y = convert_y, result_folder = result_folder_path, verbose = True)
 			y_preds_models.append(y_pred)
 			print('Predictions from model ' + str(idx + 1) + ' with drug encoding ' + model_name[0] + ' and target encoding ' + model_name[1] + ' are done...')
 			print('-------------')
@@ -115,7 +115,7 @@ def repurpose(target, target_name = None,
 			model.train(train, val, test)
 
 			print('model training finished, now repurposing')
-			y_pred = models.repurpose(X_repurpose, target, model, drug_names, target_name, convert_y = convert_y, result_folder = result_folder_path, verbose = False)
+			y_pred = models.repurpose(X_repurpose, target, model, drug_names, target_name, convert_y = convert_y, result_folder = result_folder_path, verbose = True)
 			y_preds_models.append(y_pred)
 			print('Predictions from model ' + str(idx) + ' with drug encoding ' + model_name[0] + ' and target encoding ' + model_name[1] + ' are done...')
 			model.save_model(os.path.join(new_trained_models_dir, 'model_' + model_name[0] + '_' + model_name[1]))
@@ -258,7 +258,7 @@ def virtual_screening(target, X_repurpose = None,
 			if not os.path.exists(result_folder_path):
 				os.mkdir(result_folder_path)
 
-			y_pred = models.virtual_screening(X_repurpose, target, model, drug_names, target_name, convert_y = convert_y, result_folder = result_folder_path, verbose = False)
+			y_pred = models.virtual_screening(X_repurpose, target, model, drug_names, target_name, convert_y = convert_y, result_folder = result_folder_path, verbose = True)
 			y_preds_models.append(y_pred)
 			print('Predictions from model ' + str(idx + 1) + ' with drug encoding ' + model_name[0] + ' and target encoding ' + model_name[1] + ' are done...')
 			print('-------------')
@@ -298,7 +298,7 @@ def virtual_screening(target, X_repurpose = None,
 			model.train(train, val, test)
 
 			print('model training finished, now doing virtual screening')
-			y_pred = models.virtual_screening(X_repurpose, target, model, drug_names, target_name, convert_y = convert_y, result_folder = result_folder_path, verbose = False)
+			y_pred = models.virtual_screening(X_repurpose, target, model, drug_names, target_name, convert_y = convert_y, result_folder = result_folder_path, verbose = True)
 			y_preds_models.append(y_pred)
 			print('Predictions from model ' + str(idx) + ' with drug encoding ' + model_name[0] + ' and target encoding ' + model_name[1] + ' are done...')
 			model.save_model(os.path.join(new_trained_models_dir, 'model_' + model_name[0] + '_' + model_name[1]))
