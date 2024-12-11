@@ -1,0 +1,375 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww16640\viewh12700\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 (base) efepekgoz@Efe-MacBook-Air Project % /usr/bin/python3 /Users/efepekgoz/Project/Script/main.py\
+/Users/efepekgoz/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020\
+  warnings.warn(\
+TP53_isoform_a\
+MEEPQSDPSVEPPLSQETFSDLWKLLPENNVLSPLPSQAMDDLMLSPDDIEQWFTEDPGPDEAPRMPEAAPPVAPAPAAPTPAAPAPAPSWPLSSSVPSQKTYQGSYGFRLGFLHSGTAKSVTCTYSPALNKMFCQLAKTCPVQLWVDSTPPPGTRVRAMAIYKQSQHMTEVVRRCPHHERCSDSDGLAPPQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSFEVRVCACPGRDRRTEEENLRKKGEPHHELPPGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD\
+Beginning Processing...\
+100% [........................................................................] 39480319 / 39480319sys:1: DtypeWarning: Columns (0,8) have mixed types.Specify dtype option on import or set low_memory=False.\
+/Users/efepekgoz/Library/Python/3.9/lib/python/site-packages/DeepPurpose/dataset.py:369: SettingWithCopyWarning: \
+A value is trying to be set on a copy of a slice from a DataFrame\
+\
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\
+  val['binary_label'][(val.PUBCHEM_ACTIVITY_SCORE >= threshold) & (val.PUBCHEM_ACTIVITY_SCORE <=100)] = 1\
+Default binary threshold for the binding affinity scores is 15, recommended by the investigator\
+Done!\
+26640\
+MEEPQSDPSVEPPLSQETFSDLWKLLPENNVLSPLPSQAMDDLMLSPDDIEQWFTEDPGPDEAPRMPEAAPPVAPAPAAPTPAAPAPAPSWPLSSSVPSQKTYQGSYGFRLGFLHSGTAKSVTCTYSPALNKMFCQLAKTCPVQLWVDSTPPPGTRVRAMAIYKQSQHMTEVVRRCPHHERCSDSDGLAPPQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSFEVRVCACPGRDRRTEEENLRKKGEPHHELPPGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD\
+['CO\\\\N=C(\\\\C(=O)NC1C2SCC(CSc3nnnn3C)=C(N2C1=O)C(O)=O)c1csc(N)n1'\
+ 'CN1CCN(CC1)c1c(F)cc2c3c1SCCn3cc(C(O)=O)c2=O'\
+ 'C[C@H]1CN(C[C@@H](C)N1)c1c(F)c(N)c2c(c1F)n(cc(C(O)=O)c2=O)C1CC1' ...\
+ 'CC[C@@H]1CN2C(=N1)c1[nH]c(nc1N(C)C2=O)-c1ccccc1'\
+ 'N=C(NNc1ccccc1)c1ccccc1' 'CS(=O)(=O)Nc1c(O)ccc2C(CCCc12)C1=NCCN1']\
+Loading customized repurposing dataset...\
+Beginning Downloading Configs Files for training from scratch...\
+Downloading finished... Beginning to extract zip file...\
+pretrained model Successfully Downloaded...\
+Training on your own customized data...\
+['CCOC1=CC(=C(C=C1NC(=O)C2=CC=CO2)OCC)NC(=O)C3CCCCC3'\
+ 'CCOC1=CC=C(C=C1)C(=O)NC2=CC=CC=C2N3CCOCC3'\
+ 'CN(C1CCCC2=CC=CC=C12)C(=O)CN3CCN(CC3)C4=CC=CC=C4F' ...\
+ 'COC1=CC=C(C=C1)C(=O)OC2=CN=CC=C2'\
+ 'C1CCC(CC1)C2=NC3=CC=CC=C3C(=N2)SCC(=O)NCC4=CC5=C(C=C4)OCO5'\
+ 'C1=CC=C(C=C1)N2C=C(C(=N2)C3=CC=C(C=C3)F)NC(=O)CCl']\
+0\
+['MPNN', 'CNN']\
+['SGFKKLVSPSSAVEKCIVSVSYRGNNLNGLWLGDSIYCPRHVLGKFSGDQWGDVLNLANNHEFEVVTQNGVTLNVVSRRLKGAVLILQTAVANAETPKYKFVKANCGDSFTIACSYGGTVIGLYPVTMRSNGTIRASFLAGACGSVGFNIEKGVVNFFYMHHLELPNALHTGTDLMGEFYGGYVDEEVAQRVPPDNLVTNNIVAWLYAAIISVKESSFSQPKWLESTTVSIEDYNRWASDNGFTPFSTSTAITKLSAITGVDVCKLLRTIMVKSAQWGSDPILGQYNFEDELTPESVFNQVGGVRLQ']\
+Drug Target Interaction Prediction Mode...\
+in total: 26640 drug-target pairs\
+encoding drug...\
+unique drugs: 13764\
+encoding protein...\
+unique target sequence: 1\
+splitting dataset...\
+Done.\
+Training from scrtach...\
+Begin to train model 0 with drug encoding MPNN and target encoding CNN\
+Let's use CPU/s!\
+--- Data Preparation ---\
+--- Go for Training ---\
+Training at Epoch 1 iteration 0 with loss 0.69616. Total time 0.00027 hours\
+Training at Epoch 1 iteration 100 with loss 0.69378. Total time 0.02361 hours\
+Validation at Epoch 1, AUROC: 0.49822 , AUPRC: 0.03408 , F1: 0.0 , Cross-entropy Loss: 1.20494\
+Training at Epoch 2 iteration 0 with loss 0.69441. Total time 0.04055 hours\
+Training at Epoch 2 iteration 100 with loss 0.69372. Total time 0.06444 hours\
+Validation at Epoch 2, AUROC: 0.44984 , AUPRC: 0.03593 , F1: 0.06469 , Cross-entropy Loss: 34.8387\
+Training at Epoch 3 iteration 0 with loss 0.69337. Total time 0.08111 hours\
+Training at Epoch 3 iteration 100 with loss 0.69364. Total time 0.10472 hours\
+Validation at Epoch 3, AUROC: 0.58422 , AUPRC: 0.04855 , F1: 0.0 , Cross-entropy Loss: 1.20494\
+Training at Epoch 4 iteration 0 with loss 0.69219. Total time 0.12138 hours\
+Training at Epoch 4 iteration 100 with loss 0.69158. Total time 0.14527 hours\
+Validation at Epoch 4, AUROC: 0.63327 , AUPRC: 0.05557 , F1: 0.10389 , Cross-entropy Loss: 9.03710\
+Training at Epoch 5 iteration 0 with loss 0.65544. Total time 0.16277 hours\
+Training at Epoch 5 iteration 100 with loss 0.65981. Total time 0.18888 hours\
+Validation at Epoch 5, AUROC: 0.66381 , AUPRC: 0.06765 , F1: 0.10424 , Cross-entropy Loss: 12.1542\
+Training at Epoch 6 iteration 0 with loss 0.61336. Total time 0.20722 hours\
+Training at Epoch 6 iteration 100 with loss 0.67267. Total time 0.23361 hours\
+Validation at Epoch 6, AUROC: 0.67582 , AUPRC: 0.07467 , F1: 0.09439 , Cross-entropy Loss: 16.0834\
+Training at Epoch 7 iteration 0 with loss 0.66302. Total time 0.25055 hours\
+Training at Epoch 7 iteration 100 with loss 0.60447. Total time 0.27444 hours\
+Validation at Epoch 7, AUROC: 0.68035 , AUPRC: 0.07451 , F1: 0.11026 , Cross-entropy Loss: 12.2590\
+Training at Epoch 8 iteration 0 with loss 0.62730. Total time 0.29111 hours\
+Training at Epoch 8 iteration 100 with loss 0.58470. Total time 0.31472 hours\
+Validation at Epoch 8, AUROC: 0.67144 , AUPRC: 0.06807 , F1: 0.09583 , Cross-entropy Loss: 11.3684\
+Training at Epoch 9 iteration 0 with loss 0.60608. Total time 0.33166 hours\
+Training at Epoch 9 iteration 100 with loss 0.56775. Total time 0.35555 hours\
+Validation at Epoch 9, AUROC: 0.67064 , AUPRC: 0.06802 , F1: 0.112 , Cross-entropy Loss: 8.72277\
+Training at Epoch 10 iteration 0 with loss 0.62019. Total time 0.3725 hours\
+Training at Epoch 10 iteration 100 with loss 0.56122. Total time 0.39638 hours\
+Validation at Epoch 10, AUROC: 0.66296 , AUPRC: 0.06709 , F1: 0.11026 , Cross-entropy Loss: 12.2590\
+--- Go for Testing ---\
+Validation at Epoch 10 , AUROC: 0.66719 , AUPRC: 0.05773 , F1: 0.09642 , Cross-entropy Loss: 13.2544\
+--- Training Finished ---\
+model training finished, now repurposing\
+repurposing...\
+Drug Target Interaction Prediction Mode...\
+in total: 6111 drug-target pairs\
+encoding drug...\
+unique drugs: 6111\
+encoding protein...\
+unique target sequence: 1\
+Done.\
+predicting...\
+---------------\
+Predictions from model 0 with drug encoding MPNN and target encoding CNN are done...\
+['CCOC1=CC(=C(C=C1NC(=O)C2=CC=CO2)OCC)NC(=O)C3CCCCC3'\
+ 'CCOC1=CC=C(C=C1)C(=O)NC2=CC=CC=C2N3CCOCC3'\
+ 'CN(C1CCCC2=CC=CC=C12)C(=O)CN3CCN(CC3)C4=CC=CC=C4F' ...\
+ 'COC1=CC=C(C=C1)C(=O)OC2=CN=CC=C2'\
+ 'C1CCC(CC1)C2=NC3=CC=CC=C3C(=N2)SCC(=O)NCC4=CC5=C(C=C4)OCO5'\
+ 'C1=CC=C(C=C1)N2C=C(C(=N2)C3=CC=C(C=C3)F)NC(=O)CCl']\
+1\
+['CNN', 'CNN']\
+['SGFKKLVSPSSAVEKCIVSVSYRGNNLNGLWLGDSIYCPRHVLGKFSGDQWGDVLNLANNHEFEVVTQNGVTLNVVSRRLKGAVLILQTAVANAETPKYKFVKANCGDSFTIACSYGGTVIGLYPVTMRSNGTIRASFLAGACGSVGFNIEKGVVNFFYMHHLELPNALHTGTDLMGEFYGGYVDEEVAQRVPPDNLVTNNIVAWLYAAIISVKESSFSQPKWLESTTVSIEDYNRWASDNGFTPFSTSTAITKLSAITGVDVCKLLRTIMVKSAQWGSDPILGQYNFEDELTPESVFNQVGGVRLQ']\
+Drug Target Interaction Prediction Mode...\
+in total: 26640 drug-target pairs\
+encoding drug...\
+unique drugs: 13764\
+encoding protein...\
+unique target sequence: 1\
+splitting dataset...\
+Done.\
+Training from scrtach...\
+Begin to train model 1 with drug encoding CNN and target encoding CNN\
+Let's use CPU/s!\
+--- Data Preparation ---\
+--- Go for Training ---\
+Training at Epoch 1 iteration 0 with loss 0.69288. Total time 0.0 hours\
+Training at Epoch 1 iteration 100 with loss 0.56648. Total time 0.02611 hours\
+Validation at Epoch 1, AUROC: 0.70894 , AUPRC: 0.23601 , F1: 0.13333 , Cross-entropy Loss: 8.51321\
+Training at Epoch 2 iteration 0 with loss 0.39824. Total time 0.04416 hours\
+Training at Epoch 2 iteration 100 with loss 0.20386. Total time 0.06944 hours\
+Validation at Epoch 2, AUROC: 0.73579 , AUPRC: 0.19809 , F1: 0.15204 , Cross-entropy Loss: 7.59640\
+Training at Epoch 3 iteration 0 with loss 0.32584. Total time 0.08777 hours\
+Training at Epoch 3 iteration 100 with loss 0.06232. Total time 0.11333 hours\
+Validation at Epoch 3, AUROC: 0.74221 , AUPRC: 0.17039 , F1: 0.26470 , Cross-entropy Loss: 1.30972\
+Training at Epoch 4 iteration 0 with loss 0.44126. Total time 0.13166 hours\
+Training at Epoch 4 iteration 100 with loss 0.12052. Total time 0.1575 hours\
+Validation at Epoch 4, AUROC: 0.77064 , AUPRC: 0.22699 , F1: 0.27027 , Cross-entropy Loss: 2.12175\
+Training at Epoch 5 iteration 0 with loss 0.09962. Total time 0.17611 hours\
+Training at Epoch 5 iteration 100 with loss 0.50716. Total time 0.20222 hours\
+Validation at Epoch 5, AUROC: 0.75444 , AUPRC: 0.18652 , F1: 0.23703 , Cross-entropy Loss: 2.69803\
+Training at Epoch 6 iteration 0 with loss 0.07321. Total time 0.22055 hours\
+Training at Epoch 6 iteration 100 with loss 0.16959. Total time 0.24611 hours\
+Validation at Epoch 6, AUROC: 0.74977 , AUPRC: 0.19065 , F1: 0.26666 , Cross-entropy Loss: 1.72883\
+Training at Epoch 7 iteration 0 with loss 0.03128. Total time 0.26416 hours\
+Training at Epoch 7 iteration 100 with loss 0.02401. Total time 0.28944 hours\
+Validation at Epoch 7, AUROC: 0.75493 , AUPRC: 0.24361 , F1: 0.28 , Cross-entropy Loss: 1.88600\
+Training at Epoch 8 iteration 0 with loss 0.04637. Total time 0.30777 hours\
+Training at Epoch 8 iteration 100 with loss 0.04150. Total time 0.33361 hours\
+Validation at Epoch 8, AUROC: 0.75743 , AUPRC: 0.20246 , F1: 0.28571 , Cross-entropy Loss: 1.44069\
+Training at Epoch 9 iteration 0 with loss 0.01479. Total time 0.35194 hours\
+Training at Epoch 9 iteration 100 with loss 0.05926. Total time 0.37861 hours\
+Validation at Epoch 9, AUROC: 0.75841 , AUPRC: 0.16746 , F1: 0.24444 , Cross-entropy Loss: 1.78122\
+Training at Epoch 10 iteration 0 with loss 0.01955. Total time 0.39666 hours\
+Training at Epoch 10 iteration 100 with loss 0.07586. Total time 0.42166 hours\
+Validation at Epoch 10, AUROC: 0.74373 , AUPRC: 0.21501 , F1: 0.31111 , Cross-entropy Loss: 1.62405\
+--- Go for Testing ---\
+Validation at Epoch 10 , AUROC: 0.76139 , AUPRC: 0.21780 , F1: 0.27272 , Cross-entropy Loss: 2.09556\
+--- Training Finished ---\
+model training finished, now repurposing\
+repurposing...\
+Drug Target Interaction Prediction Mode...\
+in total: 6111 drug-target pairs\
+encoding drug...\
+unique drugs: 6111\
+encoding protein...\
+unique target sequence: 1\
+Done.\
+predicting...\
+---------------\
+Predictions from model 1 with drug encoding CNN and target encoding CNN are done...\
+['CCOC1=CC(=C(C=C1NC(=O)C2=CC=CO2)OCC)NC(=O)C3CCCCC3'\
+ 'CCOC1=CC=C(C=C1)C(=O)NC2=CC=CC=C2N3CCOCC3'\
+ 'CN(C1CCCC2=CC=CC=C12)C(=O)CN3CCN(CC3)C4=CC=CC=C4F' ...\
+ 'COC1=CC=C(C=C1)C(=O)OC2=CN=CC=C2'\
+ 'C1CCC(CC1)C2=NC3=CC=CC=C3C(=N2)SCC(=O)NCC4=CC5=C(C=C4)OCO5'\
+ 'C1=CC=C(C=C1)N2C=C(C(=N2)C3=CC=C(C=C3)F)NC(=O)CCl']\
+2\
+['Morgan', 'CNN']\
+['SGFKKLVSPSSAVEKCIVSVSYRGNNLNGLWLGDSIYCPRHVLGKFSGDQWGDVLNLANNHEFEVVTQNGVTLNVVSRRLKGAVLILQTAVANAETPKYKFVKANCGDSFTIACSYGGTVIGLYPVTMRSNGTIRASFLAGACGSVGFNIEKGVVNFFYMHHLELPNALHTGTDLMGEFYGGYVDEEVAQRVPPDNLVTNNIVAWLYAAIISVKESSFSQPKWLESTTVSIEDYNRWASDNGFTPFSTSTAITKLSAITGVDVCKLLRTIMVKSAQWGSDPILGQYNFEDELTPESVFNQVGGVRLQ']\
+Drug Target Interaction Prediction Mode...\
+in total: 26640 drug-target pairs\
+encoding drug...\
+unique drugs: 13764\
+encoding protein...\
+unique target sequence: 1\
+splitting dataset...\
+Done.\
+Training from scrtach...\
+Begin to train model 2 with drug encoding Morgan and target encoding CNN\
+Let's use CPU/s!\
+--- Data Preparation ---\
+--- Go for Training ---\
+Training at Epoch 1 iteration 0 with loss 0.69368. Total time 0.0 hours\
+Training at Epoch 1 iteration 100 with loss 0.04841. Total time 0.02361 hours\
+Validation at Epoch 1, AUROC: 0.76533 , AUPRC: 0.26204 , F1: 0.35294 , Cross-entropy Loss: 1.15255\
+Training at Epoch 2 iteration 0 with loss 0.00157. Total time 0.04027 hours\
+Training at Epoch 2 iteration 100 with loss 0.00238. Total time 0.06388 hours\
+Validation at Epoch 2, AUROC: 0.74576 , AUPRC: 0.26234 , F1: 0.35294 , Cross-entropy Loss: 1.15255\
+Training at Epoch 3 iteration 0 with loss 0.01562. Total time 0.08083 hours\
+Training at Epoch 3 iteration 100 with loss 0.00218. Total time 0.10527 hours\
+Validation at Epoch 3, AUROC: 0.77450 , AUPRC: 0.33939 , F1: 0.42253 , Cross-entropy Loss: 1.07397\
+Training at Epoch 4 iteration 0 with loss 0.00116. Total time 0.12222 hours\
+Training at Epoch 4 iteration 100 with loss 0.00038. Total time 0.14611 hours\
+Validation at Epoch 4, AUROC: 0.78132 , AUPRC: 0.28330 , F1: 0.34951 , Cross-entropy Loss: 1.75503\
+Training at Epoch 5 iteration 0 with loss 0.00028. Total time 0.16333 hours\
+Training at Epoch 5 iteration 100 with loss 0.02006. Total time 0.18694 hours\
+Validation at Epoch 5, AUROC: 0.76897 , AUPRC: 0.26493 , F1: 0.31481 , Cross-entropy Loss: 1.93839\
+Training at Epoch 6 iteration 0 with loss 0.02417. Total time 0.20416 hours\
+Training at Epoch 6 iteration 100 with loss 0.00345. Total time 0.22833 hours\
+Validation at Epoch 6, AUROC: 0.78067 , AUPRC: 0.27006 , F1: 0.36842 , Cross-entropy Loss: 1.25733\
+Training at Epoch 7 iteration 0 with loss 0.00448. Total time 0.24722 hours\
+Training at Epoch 7 iteration 100 with loss 0.01124. Total time 0.27194 hours\
+Validation at Epoch 7, AUROC: 0.78383 , AUPRC: 0.30652 , F1: 0.42253 , Cross-entropy Loss: 1.07397\
+Training at Epoch 8 iteration 0 with loss 0.00251. Total time 0.28888 hours\
+Training at Epoch 8 iteration 100 with loss 0.00590. Total time 0.31277 hours\
+Validation at Epoch 8, AUROC: 0.77520 , AUPRC: 0.31678 , F1: 0.41176 , Cross-entropy Loss: 1.04778\
+Training at Epoch 9 iteration 0 with loss 1.96028. Total time 0.33 hours\
+Training at Epoch 9 iteration 100 with loss 3.43265. Total time 0.35388 hours\
+Validation at Epoch 9, AUROC: 0.77702 , AUPRC: 0.31607 , F1: 0.38709 , Cross-entropy Loss: 0.99539\
+Training at Epoch 10 iteration 0 with loss 0.00032. Total time 0.37083 hours\
+Training at Epoch 10 iteration 100 with loss 0.00060. Total time 0.39555 hours\
+Validation at Epoch 10, AUROC: 0.75307 , AUPRC: 0.31151 , F1: 0.42857 , Cross-entropy Loss: 1.25733\
+--- Go for Testing ---\
+Validation at Epoch 10 , AUROC: 0.73161 , AUPRC: 0.28048 , F1: 0.26470 , Cross-entropy Loss: 1.30972\
+--- Training Finished ---\
+model training finished, now repurposing\
+repurposing...\
+Drug Target Interaction Prediction Mode...\
+in total: 6111 drug-target pairs\
+encoding drug...\
+unique drugs: 6111\
+encoding protein...\
+unique target sequence: 1\
+Done.\
+predicting...\
+---------------\
+Predictions from model 2 with drug encoding Morgan and target encoding CNN are done...\
+['CCOC1=CC(=C(C=C1NC(=O)C2=CC=CO2)OCC)NC(=O)C3CCCCC3'\
+ 'CCOC1=CC=C(C=C1)C(=O)NC2=CC=CC=C2N3CCOCC3'\
+ 'CN(C1CCCC2=CC=CC=C12)C(=O)CN3CCN(CC3)C4=CC=CC=C4F' ...\
+ 'COC1=CC=C(C=C1)C(=O)OC2=CN=CC=C2'\
+ 'C1CCC(CC1)C2=NC3=CC=CC=C3C(=N2)SCC(=O)NCC4=CC5=C(C=C4)OCO5'\
+ 'C1=CC=C(C=C1)N2C=C(C(=N2)C3=CC=C(C=C3)F)NC(=O)CCl']\
+3\
+['Morgan', 'AAC']\
+['SGFKKLVSPSSAVEKCIVSVSYRGNNLNGLWLGDSIYCPRHVLGKFSGDQWGDVLNLANNHEFEVVTQNGVTLNVVSRRLKGAVLILQTAVANAETPKYKFVKANCGDSFTIACSYGGTVIGLYPVTMRSNGTIRASFLAGACGSVGFNIEKGVVNFFYMHHLELPNALHTGTDLMGEFYGGYVDEEVAQRVPPDNLVTNNIVAWLYAAIISVKESSFSQPKWLESTTVSIEDYNRWASDNGFTPFSTSTAITKLSAITGVDVCKLLRTIMVKSAQWGSDPILGQYNFEDELTPESVFNQVGGVRLQ']\
+Drug Target Interaction Prediction Mode...\
+in total: 26640 drug-target pairs\
+encoding drug...\
+unique drugs: 13764\
+encoding protein...\
+unique target sequence: 1\
+-- Encoding AAC takes time. Time Reference: 24s for ~100 sequences in a CPU.                             Calculate your time by the unique target sequence #, instead of the entire dataset.\
+splitting dataset...\
+Done.\
+Training from scrtach...\
+Begin to train model 3 with drug encoding Morgan and target encoding AAC\
+Let's use CPU/s!\
+--- Data Preparation ---\
+--- Go for Training ---\
+Training at Epoch 1 iteration 0 with loss 0.69236. Total time 0.0 hours\
+Training at Epoch 1 iteration 100 with loss 0.02619. Total time 0.00138 hours\
+Validation at Epoch 1, AUROC: 0.75833 , AUPRC: 0.27078 , F1: 0.36363 , Cross-entropy Loss: 1.10016\
+Training at Epoch 2 iteration 0 with loss 0.00596. Total time 0.00222 hours\
+Training at Epoch 2 iteration 100 with loss 0.02163. Total time 0.00361 hours\
+Validation at Epoch 2, AUROC: 0.78275 , AUPRC: 0.29181 , F1: 0.425 , Cross-entropy Loss: 1.20494\
+Training at Epoch 3 iteration 0 with loss 0.12551. Total time 0.00472 hours\
+Training at Epoch 3 iteration 100 with loss 0.03345. Total time 0.00611 hours\
+Validation at Epoch 3, AUROC: 0.77271 , AUPRC: 0.28238 , F1: 0.35294 , Cross-entropy Loss: 1.15255\
+Training at Epoch 4 iteration 0 with loss 0.00128. Total time 0.00694 hours\
+Training at Epoch 4 iteration 100 with loss 0.00783. Total time 0.00833 hours\
+Validation at Epoch 4, AUROC: 0.78023 , AUPRC: 0.24264 , F1: 0.28571 , Cross-entropy Loss: 1.17875\
+Training at Epoch 5 iteration 0 with loss 2.49652. Total time 0.00944 hours\
+Training at Epoch 5 iteration 100 with loss 1.78042. Total time 0.01083 hours\
+Validation at Epoch 5, AUROC: 0.77204 , AUPRC: 0.30514 , F1: 0.36619 , Cross-entropy Loss: 1.17875\
+Training at Epoch 6 iteration 0 with loss 0.02726. Total time 0.01194 hours\
+Training at Epoch 6 iteration 100 with loss 0.00102. Total time 0.01333 hours\
+Validation at Epoch 6, AUROC: 0.79236 , AUPRC: 0.32223 , F1: 0.41558 , Cross-entropy Loss: 1.17875\
+Training at Epoch 7 iteration 0 with loss 0.00158. Total time 0.01444 hours\
+Training at Epoch 7 iteration 100 with loss 7.80491. Total time 0.01583 hours\
+Validation at Epoch 7, AUROC: 0.77548 , AUPRC: 0.27869 , F1: 0.17241 , Cross-entropy Loss: 1.25733\
+Training at Epoch 8 iteration 0 with loss 0.09980. Total time 0.01694 hours\
+Training at Epoch 8 iteration 100 with loss 3.66565. Total time 0.01833 hours\
+Validation at Epoch 8, AUROC: 0.76845 , AUPRC: 0.31442 , F1: 0.36619 , Cross-entropy Loss: 1.17875\
+Training at Epoch 9 iteration 0 with loss 0.00795. Total time 0.01916 hours\
+Training at Epoch 9 iteration 100 with loss 1.16910. Total time 0.02055 hours\
+Validation at Epoch 9, AUROC: 0.77126 , AUPRC: 0.32587 , F1: 0.4 , Cross-entropy Loss: 1.10016\
+Training at Epoch 10 iteration 0 with loss 6.70645. Total time 0.02166 hours\
+Training at Epoch 10 iteration 100 with loss 1.13756. Total time 0.02305 hours\
+Validation at Epoch 10, AUROC: 0.77079 , AUPRC: 0.34627 , F1: 0.38805 , Cross-entropy Loss: 1.07397\
+--- Go for Testing ---\
+Validation at Epoch 10 , AUROC: 0.75382 , AUPRC: 0.31072 , F1: 0.32 , Cross-entropy Loss: 1.33592\
+--- Training Finished ---\
+model training finished, now repurposing\
+repurposing...\
+Drug Target Interaction Prediction Mode...\
+in total: 6111 drug-target pairs\
+encoding drug...\
+unique drugs: 6111\
+encoding protein...\
+unique target sequence: 1\
+-- Encoding AAC takes time. Time Reference: 24s for ~100 sequences in a CPU.                             Calculate your time by the unique target sequence #, instead of the entire dataset.\
+Done.\
+predicting...\
+---------------\
+Predictions from model 3 with drug encoding Morgan and target encoding AAC are done...\
+['CCOC1=CC(=C(C=C1NC(=O)C2=CC=CO2)OCC)NC(=O)C3CCCCC3'\
+ 'CCOC1=CC=C(C=C1)C(=O)NC2=CC=CC=C2N3CCOCC3'\
+ 'CN(C1CCCC2=CC=CC=C12)C(=O)CN3CCN(CC3)C4=CC=CC=C4F' ...\
+ 'COC1=CC=C(C=C1)C(=O)OC2=CN=CC=C2'\
+ 'C1CCC(CC1)C2=NC3=CC=CC=C3C(=N2)SCC(=O)NCC4=CC5=C(C=C4)OCO5'\
+ 'C1=CC=C(C=C1)N2C=C(C(=N2)C3=CC=C(C=C3)F)NC(=O)CCl']\
+4\
+['Daylight', 'AAC']\
+['SGFKKLVSPSSAVEKCIVSVSYRGNNLNGLWLGDSIYCPRHVLGKFSGDQWGDVLNLANNHEFEVVTQNGVTLNVVSRRLKGAVLILQTAVANAETPKYKFVKANCGDSFTIACSYGGTVIGLYPVTMRSNGTIRASFLAGACGSVGFNIEKGVVNFFYMHHLELPNALHTGTDLMGEFYGGYVDEEVAQRVPPDNLVTNNIVAWLYAAIISVKESSFSQPKWLESTTVSIEDYNRWASDNGFTPFSTSTAITKLSAITGVDVCKLLRTIMVKSAQWGSDPILGQYNFEDELTPESVFNQVGGVRLQ']\
+Drug Target Interaction Prediction Mode...\
+in total: 26640 drug-target pairs\
+encoding drug...\
+unique drugs: 13764\
+encoding protein...\
+unique target sequence: 1\
+-- Encoding AAC takes time. Time Reference: 24s for ~100 sequences in a CPU.                             Calculate your time by the unique target sequence #, instead of the entire dataset.\
+splitting dataset...\
+Done.\
+Training from scrtach...\
+Begin to train model 4 with drug encoding Daylight and target encoding AAC\
+Let's use CPU/s!\
+--- Data Preparation ---\
+--- Go for Training ---\
+Training at Epoch 1 iteration 0 with loss 0.69511. Total time 0.0 hours\
+Training at Epoch 1 iteration 100 with loss 0.21083. Total time 0.00138 hours\
+Validation at Epoch 1, AUROC: 0.80626 , AUPRC: 0.30759 , F1: 0.18250 , Cross-entropy Loss: 5.63182\
+Training at Epoch 2 iteration 0 with loss 0.15666. Total time 0.00222 hours\
+Training at Epoch 2 iteration 100 with loss 0.10809. Total time 0.00361 hours\
+Validation at Epoch 2, AUROC: 0.76668 , AUPRC: 0.26121 , F1: 0.30434 , Cross-entropy Loss: 2.51467\
+Training at Epoch 3 iteration 0 with loss 0.06683. Total time 0.00472 hours\
+Training at Epoch 3 iteration 100 with loss 0.00461. Total time 0.00611 hours\
+Validation at Epoch 3, AUROC: 0.76139 , AUPRC: 0.33719 , F1: 0.44155 , Cross-entropy Loss: 1.12636\
+Training at Epoch 4 iteration 0 with loss 0.05679. Total time 0.00694 hours\
+Training at Epoch 4 iteration 100 with loss 0.02481. Total time 0.00833 hours\
+Validation at Epoch 4, AUROC: 0.76796 , AUPRC: 0.37650 , F1: 0.40776 , Cross-entropy Loss: 1.59786\
+Training at Epoch 5 iteration 0 with loss 0.00411. Total time 0.00944 hours\
+Training at Epoch 5 iteration 100 with loss 0.01545. Total time 0.01083 hours\
+Validation at Epoch 5, AUROC: 0.79120 , AUPRC: 0.35232 , F1: 0.37837 , Cross-entropy Loss: 1.20494\
+Training at Epoch 6 iteration 0 with loss 0.05456. Total time 0.01194 hours\
+Training at Epoch 6 iteration 100 with loss 0.03302. Total time 0.01333 hours\
+Validation at Epoch 6, AUROC: 0.74841 , AUPRC: 0.36699 , F1: 0.42352 , Cross-entropy Loss: 1.28353\
+Training at Epoch 7 iteration 0 with loss 0.05720. Total time 0.01416 hours\
+Training at Epoch 7 iteration 100 with loss 0.00519. Total time 0.01555 hours\
+Validation at Epoch 7, AUROC: 0.77518 , AUPRC: 0.34117 , F1: 0.35789 , Cross-entropy Loss: 1.59786\
+Training at Epoch 8 iteration 0 with loss 0.05073. Total time 0.01666 hours\
+Training at Epoch 8 iteration 100 with loss 0.00128. Total time 0.01805 hours\
+Validation at Epoch 8, AUROC: 0.77569 , AUPRC: 0.26227 , F1: 0.25714 , Cross-entropy Loss: 2.72422\
+Training at Epoch 9 iteration 0 with loss 0.01192. Total time 0.01888 hours\
+Training at Epoch 9 iteration 100 with loss 0.00464. Total time 0.02027 hours\
+Validation at Epoch 9, AUROC: 0.76238 , AUPRC: 0.34788 , F1: 0.43373 , Cross-entropy Loss: 1.23114\
+Training at Epoch 10 iteration 0 with loss 0.00994. Total time 0.02138 hours\
+Training at Epoch 10 iteration 100 with loss 0.00073. Total time 0.02277 hours\
+Validation at Epoch 10, AUROC: 0.76879 , AUPRC: 0.31562 , F1: 0.37113 , Cross-entropy Loss: 1.59786\
+--- Go for Testing ---\
+Validation at Epoch 10 , AUROC: 0.75888 , AUPRC: 0.24828 , F1: 0.20472 , Cross-entropy Loss: 5.29129\
+--- Training Finished ---\
+model training finished, now repurposing\
+repurposing...\
+Drug Target Interaction Prediction Mode...\
+in total: 6111 drug-target pairs\
+encoding drug...\
+unique drugs: 6111\
+rdkit not found this smiles: [Y+3] convert to all 0 features\
+rdkit not found this smiles: [K].I convert to all 0 features\
+encoding protein...\
+unique target sequence: 1\
+-- Encoding AAC takes time. Time Reference: 24s for ~100 sequences in a CPU.                             Calculate your time by the unique target sequence #, instead of the entire dataset.\
+Done.\
+predicting...\
+---------------\
+Predictions from model 4 with drug encoding Daylight and target encoding AAC are done...\
+models prediction finished.}
